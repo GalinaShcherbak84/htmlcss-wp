@@ -2,19 +2,40 @@
     margin: 0;
     padding:0;
     box-sizing:border-box;
+    font-family: 'Montserrat', sans-serif;
 }
+h1,h2,h3,h4{
+    font-weight: 600;
+}
+h1{
+    font-size: 30px;
+}
+
+h2{
+    font-size: 36px;
+    
+}
+h3{
+    
+    color:#969696;
+}
+
+
 .container{
     width:1170px;
     margin: 0  auto;
 }
 /* header */
 header{
+    height: 180px;
     margin:15px 0;
+    font-weight: 300;
 }
 /* immagine logo */
 .logo img {
     width: 160px;
 }
+
 /* menu */
 nav li{
     list-style: none;
@@ -22,6 +43,10 @@ nav li{
     color:#969696;
     text-transform: uppercase;
     padding: 20px 10px 20px 0;
+}
+
+nav li:hover{
+    color: black;
 }
 nav li:last-child{
     padding-right: 0;
@@ -33,32 +58,73 @@ nav a{
 
 /* section 1 */
 .prima{
-    height: 300px;
-    background-color: #e1d67a;
+    height: 400px;
+    background-image:url(./img/banner.jpg);
+    background-size: cover;
+    background-position: center;
     margin-bottom: 15px;
+    position: relative;
+}
+.oscuratore{
+    height: 400px;
+    background-color:rgba(15, 9, 9, 0.6);
+    position:absolute;
+   
+    
+   
+}
+.title{
+    width: 70%;
+    height: 60%;
+    padding-top: 200px;
+    padding-left:40px;
+    color: white;
+    
 }
 /* section 2 */
 .seconda{
-    height: 500px;
-    background-color:#3387fd;
+    /* height: 500px; */
+    /* background-color:#3387fd; */
     margin-bottom: 5px;
 
 }
 .top{
     height: 80px;
-    background-color: #abcfe7;
+    /* background-color: #abcfe7; */
+    margin:40px 0;
 }
 .col{
-    height: 390px;
+    /* height: 390px; */
     margin: 15px 0;
-    background-color:#abcfe7 ;
+   /*  background-color:#abcfe7 ; */
     float: left;
+}
+.immagine{
+    height: 200px;
+    background-image: url(./img/img-1.jpg);
+    border-radius: 40px;
+    background-size: cover;
+    background-position: center;
+}
+.middle .immagine{
+    background-image: url(./img/img-2.jpg);
+}
+.right .immagine{
+    background-image: url(./img/img-3.jpg);
+}
+.col h4{
+    margin:20px 0;
+}
+.testo{
+    color:#969696;
+    
 }
 .clearfix::after{
     content: "";
     display: table;
     clear:both;
 }
+
 .left,
 .right{
 width: 20%;
@@ -70,6 +136,11 @@ width: 20%;
 /* footer */
 footer{
     height: 60px;
-    background-color: #8800fe;
+    line-height: 60px;
     margin-bottom: 15px;
+    text-align: center;
+    font-weight: 300;
+}
+.cuore{
+    color:red;
 }
