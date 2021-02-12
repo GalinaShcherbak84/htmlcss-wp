@@ -63,12 +63,12 @@ nav a{
     background-size: cover;
     background-position: center;
     margin-bottom: 15px;
-    position: relative;
+    
 }
 .oscuratore{
     height: 400px;
     background-color:rgba(15, 9, 9, 0.6);
-    position:absolute;
+    
    
     
    
@@ -81,22 +81,19 @@ nav a{
     color: white;
     
 }
+
 /* section 2 */
 .seconda{
-    /* height: 500px; */
-    /* background-color:#3387fd; */
+    
     margin-bottom: 5px;
 
 }
 .top{
     height: 80px;
-    /* background-color: #abcfe7; */
     margin:40px 0;
 }
 .col{
-    /* height: 390px; */
     margin: 15px 0;
-   /*  background-color:#abcfe7 ; */
     float: left;
 }
 .immagine{
@@ -105,6 +102,11 @@ nav a{
     border-radius: 40px;
     background-size: cover;
     background-position: center;
+}
+.oscuratore_uno{
+    height: 200px;
+    background-color:rgba(15, 9, 9, 0.6);
+
 }
 .middle .immagine{
     background-image: url(./img/img-2.jpg);
